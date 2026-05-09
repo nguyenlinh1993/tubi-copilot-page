@@ -1,0 +1,55 @@
+{
+  "product": {
+    "name": "Tubi Copilot",
+    "tagline": "Your AI-powered coding assistant, right inside IntelliJ IDEA",
+    "description": "Tubi Copilot is an intelligent plugin for IntelliJ IDEA that brings a powerful AI chat assistant directly into your development workflow. Ask questions, generate code, plan features, and execute changes — all without leaving your IDE.",
+    "features": [
+      {
+        "icon": "💬",
+        "title": "Smart Chat Assistant",
+        "description": "Interact with a context-aware AI assistant that understands your codebase and helps you write, review, and refactor code efficiently."
+      },
+      {
+        "icon": "📎",
+        "title": "Context Attachments",
+        "description": "Attach files, folders, or code snippets directly into your conversation using the @mention syntax for precise, relevant answers."
+      },
+      {
+        "icon": "🤖",
+        "title": "Agent Modes",
+        "description": "Switch between Ask, Plan, and Execute modes to adapt the assistant to your current task — from quick Q&A to full automated file changes."
+      },
+      {
+        "icon": "🔍",
+        "title": "Code-Aware Proposals",
+        "description": "In Agent mode, proposed code changes are displayed in a dedicated panel where you can review, keep, or skip each change before applying."
+      },
+      {
+        "icon": "🗂️",
+        "title": "Conversation History",
+        "description": "All your conversations are saved and accessible from the history panel, so you can revisit and continue any previous session."
+      },
+      {
+        "icon": "🔒",
+        "title": "Secure by Design",
+        "description": "Authentication uses OAuth2 with PKCE. Your credentials are stored securely in the OS keychain — never in plain text files."
+      }
+    ]
+  },
+  "links": {
+    "setupGuide": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Tubi%20Copilot%20-%20Setup%20guide.docx?d=w62a275f740474c439a9c9cc70c78f470&csf=1&web=1&e=ctPRib",
+    "contact": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Tubi%20Copilot%20-%20Contact.docx?d=w5a4d80f9a65045a593d8e383fa96c8ca&csf=1&web=1&e=rbXdiD"
+  },
+  "releases": [
+    {
+      "version": "0.1.0",
+      "releaseDate": "2026-05-01",
+      "eofDate": "2026-06-30",
+      "status": "active",
+      "releaseNoteUrl": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v1.0.0/Release%20Note%201.0.0.docx?d=wfd3a9168e5984f1b956b72b931a4664e&csf=1&web=1&e=AuXexF",
+      "downloadUrl": "https://fptsoftware362-my.sharepoint.com/:u:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v1.0.0/tubi-copilot-1.0.0.zip?csf=1&web=1&e=V2qcrC",
+      "highlights": "Initial release — Ask, Plan, Execute modes; OAuth2 login; conversation history."
+    }
+  ]
+}
+
