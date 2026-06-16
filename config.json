@@ -37,8 +37,8 @@
     ]
   },
   "links": {
-    "setupGuide": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Tubi%20Copilot%20-%20Setup%20guide.docx?d=w62a275f740474c439a9c9cc70c78f470&csf=1&web=1&e=ctPRib",
-    "contact": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Tubi%20Copilot%20-%20Contact.docx?d=w5a4d80f9a65045a593d8e383fa96c8ca&csf=1&web=1&e=rbXdiD"
+    "setupGuide": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/huong-dan-cai-dat-tubi-copilot.docx?d=wfd57ca32e6124245854a219d94de6a67&csf=1&web=1&e=wYhpyO",
+    "contact": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/contact.docx?d=w25477794ad1b4f49a0c3e4d34ce3c76e&csf=1&web=1&e=TvgKbJ"
   },
   "releases": [
     {
@@ -48,6 +48,15 @@
       "status": "active",
       "releaseNoteUrl": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v1.0.0/Release%20Note%201.0.0.docx?d=wfd3a9168e5984f1b956b72b931a4664e&csf=1&web=1&e=AuXexF",
       "downloadUrl": "https://fptsoftware362-my.sharepoint.com/:u:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v1.0.0/tubi-copilot-1.0.0.zip?csf=1&web=1&e=pIFcft",
+      "highlights": "Initial release — Ask, Plan, Execute modes; OAuth2 login; conversation history."
+    },
+    {
+      "version": "2.0.0",
+      "releaseDate": "2026-06-18",
+      "eofDate": "2026-08-01",
+      "status": "active",
+      "releaseNoteUrl": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v2.0.0/release-note-v2.0.0.docx?d=wa974c3444ec8470b87426417412fe7e6&csf=1&web=1&e=jE9K5b",
+      "downloadUrl": "https://fptsoftware362-my.sharepoint.com/:u:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v2.0.0/tubi-copilot-2.0.0.zip?csf=1&web=1&e=LqFIbY",
       "highlights": "Initial release — Ask, Plan, Execute modes; OAuth2 login; conversation history."
     }
   ]
