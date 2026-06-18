@@ -42,13 +42,13 @@
   },
   "releases": [
     {
-      "version": "1.0.0",
-      "releaseDate": "2026-05-01",
-      "eofDate": "2026-06-30",
+      "version": "2.0.1",
+      "releaseDate": "2026-06-18",
+      "eofDate": "2026-08-01",
       "status": "active",
-      "releaseNoteUrl": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v1.0.0/Release%20Note%201.0.0.docx?d=wfd3a9168e5984f1b956b72b931a4664e&csf=1&web=1&e=AuXexF",
-      "downloadUrl": "https://fptsoftware362-my.sharepoint.com/:u:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v1.0.0/tubi-copilot-1.0.0.zip?csf=1&web=1&e=pIFcft",
-      "highlights": "Initial release — Ask, Plan, Execute modes; OAuth2 login; conversation history."
+      "releaseNoteUrl": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v2.0.1/release-note-v2.0.1.docx?d=wfcf4e684be7c40b29c382c04bc7244a7&csf=1&web=1&e=ovvJ3a",
+      "downloadUrl": "https://fptsoftware362-my.sharepoint.com/:u:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v2.0.1/tubi-copilot-2.0.1.zip?csf=1&web=1&e=BOtUzk",
+      "highlights": "Bug fix — Sửa lỗi NPE khi render Markdown HTML (CSS3 không tương thích Swing); thêm thông báo kiểm tra phiên bản mới khi khởi động plugin."
     },
     {
       "version": "2.0.0",
@@ -60,13 +60,13 @@
       "highlights": "Major upgrade — Tái kiến trúc Strategy Pattern; Agent Loop 13 tools; SQLite history per-project; @mention bundle; đính kèm hình ảnh; giao diện GitHub Copilot-style."
     },
     {
-      "version": "2.0.1",
-      "releaseDate": "2026-06-18",
-      "eofDate": "2026-08-01",
+      "version": "1.0.0",
+      "releaseDate": "2026-05-01",
+      "eofDate": "2026-06-30",
       "status": "active",
-      "releaseNoteUrl": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v2.0.1/release-note-v2.0.1.docx?d=wfcf4e684be7c40b29c382c04bc7244a7&csf=1&web=1&e=ovvJ3a",
-      "downloadUrl": "https://fptsoftware362-my.sharepoint.com/:u:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v2.0.1/tubi-copilot-2.0.1.zip?csf=1&web=1&e=BOtUzk",
-      "highlights": "Bug fix — Sửa lỗi NPE khi render Markdown HTML (CSS3 không tương thích Swing); thêm thông báo kiểm tra phiên bản mới khi khởi động plugin."
+      "releaseNoteUrl": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v1.0.0/Release%20Note%201.0.0.docx?d=wfd3a9168e5984f1b956b72b931a4664e&csf=1&web=1&e=AuXexF",
+      "downloadUrl": "https://fptsoftware362-my.sharepoint.com/:u:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v1.0.0/tubi-copilot-1.0.0.zip?csf=1&web=1&e=pIFcft",
+      "highlights": "Initial release — Ask, Plan, Execute modes; OAuth2 login; conversation history."
     }
   ]
 }
