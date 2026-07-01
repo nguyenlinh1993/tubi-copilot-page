@@ -1,28 +1,28 @@
 {
   "product": {
     "name": "Tubi Copilot",
-    "tagline": "Your AI-powered coding assistant, right inside IntelliJ IDEA",
-    "description": "Tubi Copilot is an intelligent plugin for IntelliJ IDEA that brings a powerful AI chat assistant directly into your development workflow. Ask questions, generate code, plan features, and execute changes — all without leaving your IDE.",
+    "tagline": "AI-powered desktop assistant for every role — Dev, QA, BA, PM, HR and more",
+    "description": "Tubi Copilot is a standalone desktop application that brings AI-powered assistance to every role in your team. Whether you're writing code, creating test cases, drafting requirements, managing projects, or handling HR tasks — Tubi Copilot adapts to your workflow.",
     "features": [
+      {
+        "icon": "🎭",
+        "title": "Multi-Role Support",
+        "description": "Switch between specialized modes for Developer, QA, BA, PM, HR and more — each role comes with tailored prompts, tools, and workflows."
+      },
       {
         "icon": "💬",
         "title": "Smart Chat Assistant",
-        "description": "Interact with a context-aware AI assistant that understands your codebase and helps you write, review, and refactor code efficiently."
+        "description": "Interact with a context-aware AI assistant that understands your task and helps you generate content, analyze data, and solve problems efficiently."
       },
       {
         "icon": "📎",
         "title": "Context Attachments",
-        "description": "Attach files, folders, or code snippets directly into your conversation using the @mention syntax for precise, relevant answers."
+        "description": "Attach files, images, or documents directly into your conversation for precise, context-aware answers tailored to your needs."
       },
       {
         "icon": "🤖",
         "title": "Agent Modes",
-        "description": "Switch between Ask, Plan, and Execute modes to adapt the assistant to your current task — from quick Q&A to full automated file changes."
-      },
-      {
-        "icon": "🔍",
-        "title": "Code-Aware Proposals",
-        "description": "In Agent mode, proposed code changes are displayed in a dedicated panel where you can review, keep, or skip each change before applying."
+        "description": "Switch between Ask, Plan, and Execute modes to adapt the assistant to your current task — from quick Q&A to full automated actions."
       },
       {
         "icon": "🗂️",
@@ -41,6 +41,15 @@
     "contact": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/contact.docx?d=w25477794ad1b4f49a0c3e4d34ce3c76e&csf=1&web=1&e=TvgKbJ"
   },
   "releases": [
+    {
+      "version": "3.0.0",
+      "releaseDate": "2026-07-01",
+      "eofDate": "2026-08-01",
+      "status": "active",
+      "releaseNoteUrl": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v3.0.0/release-note-v3.0.0.docx?d=w172b37dc710b49f7bd1ccd1ea93022b8&csf=1&web=1&e=HWon8z",
+      "downloadUrl": "https://fptsoftware362-my.sharepoint.com/:u:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v3.0.0/TubiCopilot-3.0.0-windows.zip?csf=1&web=1&e=QLDVoX",
+      "highlights": "Major Release — Chuyển đổi hoàn toàn từ IntelliJ Plugin sang ứng dụng Desktop độc lập (không cần IDE, không cần JDK). Giao diện FlatLaf hiện đại, quản lý Project/Session qua Sidebar, tab Workspace duyệt file, hệ thống Log với file rotation, bảo vệ source code bằng ProGuard, responsive chat bubbles, và build đa nền tảng (Windows/macOS/Linux)."
+    },
     {
       "version": "2.0.1",
       "releaseDate": "2026-06-18",
@@ -63,7 +72,7 @@
       "version": "1.0.0",
       "releaseDate": "2026-05-01",
       "eofDate": "2026-06-30",
-      "status": "active",
+      "status": "eol",
       "releaseNoteUrl": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v1.0.0/Release%20Note%201.0.0.docx?d=wfd3a9168e5984f1b956b72b931a4664e&csf=1&web=1&e=AuXexF",
       "downloadUrl": "https://fptsoftware362-my.sharepoint.com/:u:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v1.0.0/tubi-copilot-1.0.0.zip?csf=1&web=1&e=pIFcft",
       "highlights": "Initial release — Ask, Plan, Execute modes; OAuth2 login; conversation history."

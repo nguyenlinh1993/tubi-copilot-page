@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tubi Copilot — AI Assistant for IntelliJ IDEA</title>
-  <meta name="description" content="Tubi Copilot — an AI-powered chat assistant plugin for IntelliJ IDEA. Ask, Plan, and Execute with your codebase." />
+  <title>Tubi Copilot — AI Desktop Assistant</title>
+  <meta name="description" content="Tubi Copilot — a standalone AI-powered desktop assistant for Dev, QA, BA, PM, HR and more. Boost productivity across every role." />
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -44,69 +44,71 @@
   <div class="container">
 
     <div class="hero-badge">
-      ✨ IntelliJ IDEA Plugin
+      ✨ Desktop Application
     </div>
 
     <h1>
-      Code smarter with<br />
+      Work smarter with<br />
       <span class="gradient-text" data-product-name>Tubi Copilot</span>
     </h1>
 
     <p class="tagline" data-product-tagline>
-      Your AI-powered coding assistant, right inside IntelliJ IDEA
+      AI-powered desktop assistant for every role — Dev, QA, BA, PM, HR and more
     </p>
 
     <div class="hero-actions">
       <a href="#download" class="btn btn-primary">
-        ⬇ Download Plugin
+        ⬇ Download App
       </a>
       <a href="#setup" data-link="setup" class="btn btn-secondary" target="_blank" rel="noopener">
         📖 Setup Guide
       </a>
     </div>
 
-    <!-- IDE mockup -->
+    <!-- App mockup -->
     <div class="ide-preview">
       <div class="ide-titlebar">
         <span class="ide-dot red"></span>
         <span class="ide-dot yellow"></span>
         <span class="ide-dot green"></span>
-        <span class="ide-title">IntelliJ IDEA — MyProject</span>
+        <span class="ide-title">Tubi Copilot</span>
       </div>
       <div class="ide-body">
 
-        <!-- left: code pane -->
-        <div class="ide-code"><span class="cm">// UserService.java</span>
-<span class="kw">public class</span> <span class="tp">UserService</span> {
+        <!-- left: role selector pane -->
+        <div class="ide-code"><span class="cm">// Select your role</span>
 
-  <span class="kw">private final</span> <span class="tp">UserRepository</span> repo;
+<span class="fn">👨‍💻</span> <span class="tp">Developer</span>
+   <span class="cm">Code generation, review, debug</span>
 
-  <span class="kw">public</span> <span class="tp">UserService</span>(<span class="tp">UserRepository</span> repo) {
-    <span class="kw">this</span>.repo = repo;
-  }
+<span class="fn">🧪</span> <span class="tp">QA Engineer</span>
+   <span class="cm">Test cases, automation scripts</span>
 
-  <span class="kw">public</span> <span class="tp">Optional</span>&lt;<span class="tp">User</span>&gt; <span class="fn">findById</span>(<span class="tp">Long</span> id) {
-    <span class="kw">return</span> repo.<span class="fn">findById</span>(id);
-  }
+<span class="fn">📋</span> <span class="tp">Business Analyst</span>
+   <span class="cm">Requirements, user stories</span>
 
-  <span class="cm">// ← cursor here</span>
-}</div>
+<span class="fn">📊</span> <span class="tp">Project Manager</span>
+   <span class="cm">Planning, reports, tracking</span>
+
+<span class="fn">👥</span> <span class="tp">HR</span>
+   <span class="cm">Documents, policies, emails</span></div>
 
         <!-- right: chat pane -->
         <div class="ide-chat">
           <div class="chat-bubble user">
-            Generate a method to find all active users sorted by registration date.
+            Write test cases for the login feature with email and password validation.
           </div>
 
           <div class="chat-bubble ai">
-            <div class="ai-label">Tubi Copilot</div>
-            Sure! Here's the method:
+            <div class="ai-label">Tubi Copilot — QA Mode</div>
+            Here are the test cases:
             <br /><br />
             <span style="color:var(--violet-light);font-family:monospace;font-size:0.78rem">
-              public List&lt;User&gt; findActiveUsers() {<br />
-              &nbsp;&nbsp;return repo.findByActiveTrue(<br />
-              &nbsp;&nbsp;&nbsp;&nbsp;Sort.by("createdAt"));<br />
-              }
+              TC01: Valid login ✅<br />
+              TC02: Empty email → error ❌<br />
+              TC03: Invalid format → error ❌<br />
+              TC04: Wrong password → error ❌<br />
+              TC05: SQL injection → blocked 🛡
             </span>
             <span class="cursor"></span>
           </div>
@@ -114,7 +116,7 @@
 
       </div>
     </div>
-    <!-- /ide-preview -->
+    <!-- /app-preview -->
 
   </div>
 </section>
@@ -126,8 +128,8 @@
   <div class="container">
     <div class="section-header fade-in">
       <span class="section-label">What it does</span>
-      <h2>Everything you need,<br /><span class="gradient-text">inside your IDE</span></h2>
-      <p>Tubi Copilot integrates seamlessly into IntelliJ IDEA so your AI assistant is always one click away.</p>
+      <h2>Everything you need,<br /><span class="gradient-text">in one desktop app</span></h2>
+      <p>Tubi Copilot brings AI-powered assistance to every role in your team — from coding to testing, planning to hiring.</p>
     </div>
 
     <div class="features-grid" id="features-grid">
@@ -187,8 +189,8 @@
       <div class="setup-cta-text">
         <h2>Ready to get started?</h2>
         <p>
-          Follow our step-by-step installation guide to install Tubi Copilot,
-          configure authentication, and personalise agent instructions — all in under 5 minutes.
+          Follow our step-by-step guide to install Tubi Copilot on your machine,
+          configure authentication, and set up your workspace — all in under 5 minutes.
         </p>
       </div>
       <div class="setup-cta-actions">
@@ -216,7 +218,7 @@
 
     <div class="contact-card fade-in">
       <div class="contact-icon">✉️</div>
-      <h3>Contact the Dev Team</h3>
+      <h3>Contact the Team</h3>
       <p>
         For bug reports, feature requests, or general questions about Tubi Copilot,
         please visit the internal contact document below.<br />

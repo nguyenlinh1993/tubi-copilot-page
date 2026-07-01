@@ -27,3 +27,4 @@ local.properties
 .github/prompts/
 
 .tubi/
+.claude/
