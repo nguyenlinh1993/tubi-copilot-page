@@ -72,11 +72,7 @@
           ? `<span style="color:var(--text-muted)">${fmt(r.eofDate)}</span>`
           : `<span style="color:var(--text-muted);font-style:italic">—</span>`;
 
-        const dlBtn = (r.downloadUrl && r.status !== 'eol')
-          ? `<a href="${esc(r.downloadUrl)}" class="dl-btn" target="_blank" rel="noopener">
-               ⬇ Download
-             </a>`
-          : `<span class="dl-btn disabled">⬇ N/A</span>`;
+        const dlBtn = buildDownloadCell(r);
 
         const noteLink = r.releaseNoteUrl
           ? `<a href="${esc(r.releaseNoteUrl)}" class="release-link" target="_blank" rel="noopener">
@@ -144,6 +140,23 @@
   });
 
   /* ─── helpers ─── */
+  function buildDownloadCell(r) {
+    if (r.status === 'eol') return `<span class="dl-btn disabled">⬇ N/A</span>`;
+
+    if (Array.isArray(r.downloads) && r.downloads.length > 0) {
+      return `<div class="dl-group">${r.downloads.map(d => `
+        <a href="${esc(d.url)}" class="dl-btn dl-btn-sm" target="_blank" rel="noopener">
+          ${d.icon ? esc(d.icon) + ' ' : '⬇ '}${esc(d.label)}
+        </a>`).join('')}</div>`;
+    }
+
+    return r.downloadUrl
+      ? `<a href="${esc(r.downloadUrl)}" class="dl-btn" target="_blank" rel="noopener">
+           ⬇ Download
+         </a>`
+      : `<span class="dl-btn disabled">⬇ N/A</span>`;
+  }
+
   function setTextAll(selector, text) {
     document.querySelectorAll(selector).forEach(el => el.textContent = text);
   }
