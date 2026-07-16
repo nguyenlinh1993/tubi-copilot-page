@@ -37,10 +37,31 @@
     ]
   },
   "links": {
-    "setupGuide": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/huong-dan-cai-dat-tubi-copilot.docx?d=w54db60f068674c878970c81666edcb31&csf=1&web=1&e=5uU8CM",
+    "setupGuide": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/huong-dan-cai-dat-tubi-copilot.docx?d=w9abcb7c4496c4d55bc81b4ff4466bf56&csf=1&web=1&e=pEd3DC",
     "contact": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/contact.docx?d=w25477794ad1b4f49a0c3e4d34ce3c76e&csf=1&web=1&e=TvgKbJ"
   },
   "releases": [
+    {
+      "version": "3.0.2",
+      "releaseDate": "2026-07-16",
+      "eofDate": "2026-08-01",
+      "status": "active",
+      "releaseNoteUrl": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v3.0.2/release-note-v3.0.2.docx?d=wb186a6f98d3946f28a5d58bd266abd65&csf=1&web=1&e=eqygl4",
+      "downloadUrl": "https://fptsoftware362-my.sharepoint.com/:u:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v3.0.2/TubiCopilot-3.0.2-windows.zip?csf=1&web=1&e=51LyPC",
+      "downloads": [
+        {
+          "label": "Windows (.exe)",
+          "icon": "🪟",
+          "url": "https://fptsoftware362-my.sharepoint.com/:u:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v3.0.2/TubiCopilot-3.0.2-windows.zip?csf=1&web=1&e=51LyPC"
+        },
+        {
+          "label": "JAR — Windows / macOS / Linux (cần Java 17+)",
+          "icon": "☕",
+          "url": "https://fptsoftware362-my.sharepoint.com/:u:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v3.0.2/TubiCopilot-3.0.2-jar.zip?csf=1&web=1&e=KhOKsS"
+        }
+      ],
+      "highlights": "Đại tu Agent mode — Bộ tool call chuẩn Claude (Read/Edit/Write/Grep/Glob/LS/Bash...) giúp AI khám phá codebase và sửa code chính xác hơn; nhiều lớp bảo vệ chống mất code (bắt buộc đọc file trước khi sửa, chặn ghi đè khi chưa đọc đủ). Fix lỗi access token hết hạn phải khởi động lại; fix lỗi không tìm thấy tool get_diagnostics/find_references/get_symbols. Thêm cài đặt Font Size; ghi nhớ tab/project/session khi mở lại; Agent loop nâng lên 100 vòng; tối ưu instruction tăng gấp 3.7 lần dung lượng cho custom instruction."
+    },
     {
       "version": "3.0.1",
       "releaseDate": "2026-07-13",
