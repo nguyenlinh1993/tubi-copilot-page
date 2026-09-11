@@ -37,15 +37,36 @@
     ]
   },
   "links": {
-    "setupGuide": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/huong-dan-cai-dat-tubi-copilot.docx?d=w9abcb7c4496c4d55bc81b4ff4466bf56&csf=1&web=1&e=pEd3DC",
+    "setupGuide": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/huong-dan-cai-dat-tubi-copilot.docx?d=w0d7c198d20994a86aa14702039d83dd3&csf=1&web=1&e=ohfiDE",
     "contact": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/contact.docx?d=w25477794ad1b4f49a0c3e4d34ce3c76e&csf=1&web=1&e=TvgKbJ"
   },
   "releases": [
     {
+      "version": "4.0.0",
+      "releaseDate": "2026-09-11",
+      "eofDate": "2026-11-01",
+      "status": "active",
+      "releaseNoteUrl": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v4.0.0/release-note-v4.0.0.docx?d=wdb6a27c192dc417c8c67ef36840b2bf9&csf=1&web=1&e=o560VI",
+      "downloadUrl": "https://fptsoftware362-my.sharepoint.com/:u:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v4.0.0/TubiCopilot-4.0.0-windows.zip?d=w7be22a20dca7480ca2ad86fc01f0afa2&csf=1&web=1&e=eb8pJd",
+      "downloads": [
+        {
+          "label": "Windows (.exe)",
+          "icon": "🪟",
+          "url": "https://fptsoftware362-my.sharepoint.com/:u:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v4.0.0/TubiCopilot-4.0.0-windows.zip?d=w7be22a20dca7480ca2ad86fc01f0afa2&csf=1&web=1&e=eb8pJd"
+        },
+        {
+          "label": "JAR — Windows / macOS / Linux (cần Java 17+)",
+          "icon": "☕",
+          "url": "https://fptsoftware362-my.sharepoint.com/:u:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v4.0.0/TubiCopilot-4.0.0-jar.zip?d=w63a109daaa844efca0b2f63a916a5628&csf=1&web=1&e=x23MaK"
+        }
+      ],
+      "highlights": "Major release — Tích hợp MCP (Model Context Protocol): Agent có thể kết nối trực tiếp tới công cụ/hệ thống bên ngoài (browser automation, Jira, Confluence, database, API nội bộ...) theo chuẩn mở, cấu hình riêng theo từng project qua .tubi/mcp.json (tự tạo sẵn mẫu khi mở project, hỗ trợ cả kết nối local qua stdio và server nội bộ qua HTTP/SSE). Cơ chế tìm tool động (McpToolSearch) giữ system instruction gọn nhẹ dù kết nối nhiều server nhiều tool. Mọi tool MCP đều bắt buộc xác nhận Allow/Deny. Thêm bảng điều khiển 🔌 MCP Servers trên header — Start/Stop, xem trạng thái từng server, log kết nối realtime."
+    },
+    {
       "version": "3.0.4",
       "releaseDate": "2026-08-03",
       "eofDate": "2026-09-01",
-      "status": "active",
+      "status": "eol",
       "releaseNoteUrl": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v3.0.4/release-note-v3.0.4.docx?d=w4503e7c10938416bb9e3059874bf41b7&csf=1&web=1&e=ye61Rl",
       "downloadUrl": "https://fptsoftware362-my.sharepoint.com/:u:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v3.0.4/TubiCopilot-3.0.4-windows.zip?d=w0413b6b43c414c53ad84d3916fe65465&csf=1&web=1&e=l6Mg9h",
       "downloads": [
@@ -66,7 +87,7 @@
       "version": "3.0.3",
       "releaseDate": "2026-07-27",
       "eofDate": "2026-09-01",
-      "status": "active",
+      "status": "eol",
       "releaseNoteUrl": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v3.0.3/release-note-v3.0.3.docx?d=wf0ba3eaac2be4ffca01819c2267b4d1d&csf=1&web=1&e=CnqXbd",
       "downloadUrl": "https://fptsoftware362-my.sharepoint.com/:u:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v3.0.3/TubiCopilot-3.0.3-windows.zip?csf=1&web=1&e=Gc3xXf",
       "downloads": [
