@@ -37,10 +37,31 @@
     ]
   },
   "links": {
-    "setupGuide": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/huong-dan-cai-dat-tubi-copilot.docx?d=w0d7c198d20994a86aa14702039d83dd3&csf=1&web=1&e=ohfiDE",
+    "setupGuide": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/huong-dan-cai-dat-tubi-copilot.docx?d=w6d3cf932d0b84d0e803201f42996f2a9&csf=1&web=1&e=faygBb",
     "contact": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/contact.docx?d=w25477794ad1b4f49a0c3e4d34ce3c76e&csf=1&web=1&e=TvgKbJ"
   },
   "releases": [
+    {
+      "version": "4.2.0",
+      "releaseDate": "2026-10-10",
+      "eofDate": "2026-11-01",
+      "status": "active",
+      "releaseNoteUrl": "https://fptsoftware362-my.sharepoint.com/:w:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v4.2.0/release-note-v4.2.0.docx?d=w7eb60876e9c44183abf08de36acadafe&csf=1&web=1&e=F0ZRcD",
+      "downloadUrl": "https://fptsoftware362-my.sharepoint.com/:u:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v4.2.0/TubiCopilot-4.2.0-windows.zip?d=wfb4304d0f07b4e3ead5aa380ab5dec76&csf=1&web=1&e=7ZmhmW",
+      "downloads": [
+        {
+          "label": "Windows (.exe)",
+          "icon": "🪟",
+          "url": "https://fptsoftware362-my.sharepoint.com/:u:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v4.2.0/TubiCopilot-4.2.0-windows.zip?d=wfb4304d0f07b4e3ead5aa380ab5dec76&csf=1&web=1&e=7ZmhmW"
+        },
+        {
+          "label": "JAR — Windows / macOS / Linux (cần Java 17+)",
+          "icon": "☕",
+          "url": "https://fptsoftware362-my.sharepoint.com/:u:/r/personal/linhnt310_fpt_com/Documents/project/tubi-copilot/Release/v4.2.0/TubiCopilot-4.2.0-jar.zip?d=wcfb9707fdb8b4895b99087732ffbdde3&csf=1&web=1&e=EczX36"
+        }
+      ],
+      "highlights": "Thêm Skills — gói hướng dẫn tái sử dụng cho Agent, đóng gói dưới dạng .tubi/skills/<id>/SKILL.md (đúng chuẩn SKILL.md thực tế của Claude Skills, mang thẳng được từ project Claude Code/GitHub Copilot sang mà không cần viết lại). Không có form nhập liệu thủ công: nhờ AI tự viết skill bằng tool Write/Edit sẵn có ngay trong lúc chat (Agent mode), hoặc Import 1 file SKILL.md/.zip có sẵn — việc giải nén .zip được kiểm soát chặt để chống zip-slip/zip-bomb. Áp dụng cùng cơ chế tóm tắt gọn trong system prompt + tool Skill(skill=\"...\") để nạp đầy đủ khi cần, giống cách MCP đang quản lý tool động, tránh làm phình system instruction. Thêm bảng điều khiển 🔧 Skills trên header (liệt kê, Import, Rescan, Reveal/Delete từng skill). Dialog Skills và MCP Servers chuyển sang hiển thị dạng bảng để không bị tràn giao diện khi tên/mô tả dài; sửa icon trạng thái hiển thị sai màu hoặc thành ô vuông trống trên một số máy Windows do dùng emoji quá mới (Unicode 11.0) chưa có glyph trong font hệ thống."
+    },
     {
       "version": "4.0.1",
       "releaseDate": "2026-09-28",
